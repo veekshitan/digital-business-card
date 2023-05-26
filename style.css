@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;   
+}
+body {
+  background-color: #23252c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  max-width: 22em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 100px;
+  margin: 3em;
+}
+
+.bcard{
+    display : flex;
+    flex-direction: column;
+    background-color: #1A1B21;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.image{
+    display : block;
+    width : 100%;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+
+p{
+    font-size: 0.95rem;
+    font-weight: 150;
+    line-height: 150%;
+    
+}
+.name{
+    margin-bottom: 5px;
+}
+.infodata{
+    text-align: center;  
+}
+
+.infoRole{
+    color: #F3BF99;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-top: 0.1em; 
+    margin-bottom: 7px;
+}
+
+.infoWeb{
+    font-weight: 75;
+    font-size:0.75rem; 
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 2em; 
+}
+
+
+.info button{
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5em 0.em;
+    
+}
+
+.LinkedIn{
+    background-color: #5093E2;
+    border: 2px solid #5093E2;
+    color: #F5F5F5;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+
+.email{
+    border: 2px solid #F5F5F5;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+.about{
+    display : flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 0 2em; 
+}
+
+.about h4{
+    margin-bottom: 1px;
+    margin-top: 45px;
+    font-size: 17px;
+}
+
+.intrests{
+    display : flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 0 2em; 
+}
+
+.intrests h4{
+    margin-top: 25px;
+    margin-bottom: 1px;
+    font-size: 17px;
+}
+
+.intrests p{
+    margin-bottom: 60px;
+}
